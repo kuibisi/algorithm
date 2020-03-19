@@ -6,14 +6,14 @@
  #你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
  #solution:
  #class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[j] == target - nums[i]) {
-                    return new int[] { i, j };
-                }
-            }
-        }
-        throw new IllegalArgumentException("没有相关值");
-    }
-}
+    #public int[] twoSum(int[] nums, int target) {
+        #for (int i = 0; i < nums.length; i++) {
+            #for (int j = i + 1; j < nums.length; j++) {
+                #if (nums[j] == target - nums[i]) {
+                    #return new int[] { i, j };
+                #}
+            #}
+        #}
+        #throw new IllegalArgumentException("没有相关值");
+    #}
+#}
